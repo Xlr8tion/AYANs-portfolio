@@ -154,18 +154,20 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span className="hero__name">Anas Khan</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
+              I am currently studying at NDMVP'S Sharadchandra Pawarji Colloge
+              of Architecture and Center for Design I like giving shapes a life
+              as well as recreate my stories through a plan. I firmly believe
+              it’s important for me to move my expressive energies and
+              experiment with various materials and crafts.
             </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button btnText="see my work" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
@@ -176,25 +178,16 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="https://www.behance.net/anaskhan190"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    BE
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://twitter.com/webcifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    TW
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://isntagram.com/web_cifar"
+                    href="https://www.instagram.com/that_blurrymind/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -203,7 +196,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://webcifar.com"
+                    href="https://www.linkedin.com/in/anas1khan/"
                     target="_blank"
                     rel="noreferrer"
                   >

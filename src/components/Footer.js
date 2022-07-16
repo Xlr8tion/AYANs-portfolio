@@ -57,16 +57,17 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Anas Khan</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            My name is Anas Khan I like giving shapes a life as well as recreate
+            my stories through a plan. I firmly believe it’s important for me to
+            move my expressive energies and experiment with various materials
+            and crafts.
           </PText>
         </div>
         <div className="footer__col2">
           <FooterCol
-            heading="Important Links"
+            heading="Navigation"
             links={[
               {
                 title: 'Home',
@@ -83,11 +84,6 @@ export default function Footer() {
                 title: 'Projects',
                 path: '/projects',
               },
-              {
-                type: 'Link',
-                title: 'Contact',
-                path: '/contact',
-              },
             ]}
           />
         </div>
@@ -96,15 +92,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+91 7387061222',
+                path: 'tel:+91 7387061222',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'askanas010@gmailnom',
+                path: 'mailto:askanas010@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'Nashik Maharashtra India',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -112,19 +108,19 @@ export default function Footer() {
         </div>
         <div className="footer__col4">
           <FooterCol
-            heading="social Links"
+            heading="Social Links"
             links={[
               {
-                title: 'Facebook',
-                path: 'http://facebook.com',
+                title: 'Behance',
+                path: 'https://www.behance.net/anaskhan190',
               },
               {
-                title: 'Twitter',
-                path: 'http://twitter.com',
+                title: 'linkedIn',
+                path: 'https://www.linkedin.com/in/anas1khan/',
               },
               {
                 title: 'Instagram',
-                path: 'http://instagram.com',
+                path: 'https://www.instagram.com/that_blurrymind/',
               },
             ]}
           />
@@ -132,12 +128,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
-          </PText>
+          <PText>© 2022 - Anas Khan</PText>
         </div>
       </div>
     </FooterStyle>

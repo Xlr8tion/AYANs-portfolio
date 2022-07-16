@@ -6,7 +6,7 @@ import SectionTitle from './SectionTitle';
 import AboutImg from '../assets/images/about-sec-img.png';
 
 const AboutSectionStyles = styled.div`
-  padding: 10rem 0;
+  padding: 0 0;
   .container {
     display: flex;
     align-items: center;
@@ -80,12 +80,15 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a freelance website designer and developer from Chittagong,
-            Bangladesh. I create professional websites. I love art and always
-            try to show unique views to the audience through my design.
+            I'm currently pursuing production design. I believe design is at the
+            intersection of technology, engineering and art. I'm skilled in
+            graphic design, digital contents, illustrations and interaction
+            design and is also eager to learn new things, where design itself is
+            one of them. Through my field I get an opportunity to level up my
+            abilities in different creative directions.
           </PText>
           <div className="aboutSection__buttons">
-            <Button btnText="Works" btnLink="/projects" />
+            <Button btnText="My Work" btnLink="/projects" />
             <Button btnText="Read More" btnLink="/about" outline />
           </div>
         </div>

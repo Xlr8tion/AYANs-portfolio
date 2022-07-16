@@ -6,17 +6,17 @@ import ProjectImg from '../assets/images/projectImg.png';
 const ProjectItemStyles = styled.div`
   .projectItem__img {
     width: 100%;
-    height: 400px;
     border-radius: 12px;
     overflow: hidden;
     display: inline-block;
+    margin-top: 5rem;
     border: 3px solid var(--gray-2);
     img {
-      height: 100%;
+      height: 480px;
     }
   }
   .projectItem__info {
-    margin-top: 1rem;
+    margin-top: 0rem;
     background-color: var(--deep-dark);
     padding: 1rem;
     border-radius: 12px;
@@ -31,7 +31,7 @@ const ProjectItemStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     .projectItem__img {
-      height: 350px;
+      height: 300px;
     }
   }
 `;

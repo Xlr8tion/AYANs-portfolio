@@ -15,7 +15,7 @@ const NavStyles = styled.nav`
     max-width: 1200px;
     margin: 0 auto;
     width: 90%;
-    text-align: center;
+    text-align: left;
     li {
       display: inline-block;
       border-radius: 8px;
@@ -143,17 +143,6 @@ export default function NavMenu() {
             tabIndex={0}
           >
             Projects
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/contact"
-            onClick={() => setShowNav(!showNav)}
-            role="button"
-            onKeyDown={() => setShowNav(!showNav)}
-            tabIndex={0}
-          >
-            Contact
           </NavLink>
         </li>
       </ul>

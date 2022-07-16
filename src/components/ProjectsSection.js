@@ -11,14 +11,14 @@ import projects from '../assets/data/projects';
 SwiperCore.use([Navigation]);
 
 const ProjectSectionStyle = styled.div`
-  padding: 10rem 0;
+  padding: 0 0;
   .projects__allItems {
     display: flex;
     gap: 3rem;
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
   .swiper-container {
-    padding-top: 8rem;
+    padding-top: 1rem;
     max-width: 100%;
   }
   .swiper-button-prev,
@@ -65,7 +65,7 @@ export default function ProjectsSection() {
         <div className="projects__allItems">
           <Swiper
             spaceBetween={30}
-            slidesPerView={1}
+            slidesPerView={3}
             navigation
             breakpoints={{
               // when window width is >= 640px
